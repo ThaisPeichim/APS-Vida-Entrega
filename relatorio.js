@@ -8,7 +8,7 @@ import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/11
 
 /* ================= CONFIGURAÇÃO DO FIREBASE ================= */
 const firebaseConfig = {
-    apiKey: "REMOVIDO_POR_SEGURANCASyCUOoyDI8GJA7WzDV0AQq2PJKNd6XupGxA",
+    apiKey: "const API_KEY = ";,
     authDomain: "apssaude-cbbb7.firebaseapp.com",
     projectId: "apssaude-cbbb7",
     storageBucket: "apssaude-cbbb7.firebasestorage.app",
@@ -163,4 +163,5 @@ document.addEventListener("DOMContentLoaded", async () => {
             loadingMessage.textContent = "Nenhum ID de relatório encontrado na URL. Impossível carregar dados.";
         }
     }
+
 });
